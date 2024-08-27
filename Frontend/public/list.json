@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Fiction",
+    "title": "Harry Potter and the order of The Phoenix",
+    "price": 0,
+    "category": "Free",
+    "image": "https://m.media-amazon.com/images/I/91Q8YfcIqKL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Story Book",
+    "title": "Panchatantra Stories",
+    "price": 30,
+    "category": "Stories",
+    "image": "https://cdn.kobo.com/book-images/780a2515-0341-474d-9263-22fd354abad1/1200/1200/False/panchatantra-6.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Novel",
+    "title": "How to Kill a MockingBird",
+    "price": 0,
+    "category": "Free",
+    "image": "https://cdn.penguin.co.uk/dam-assets/books/9781784752637/9781784752637-jacket-large.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Classic",
+    "title": "Stephen Hawking - A brief History of Time",
+    "price": 100,
+    "category": "Science",
+    "image": "https://res.cloudinary.com/bookbub/image/upload/t_ci_ar_6:9_padded,f_auto,q_auto,dpr_1/v1489621171/pro_pbid_832213.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Fiction",
+    "title": "The Alchemist",
+    "price": 80,
+    "category": "Fiction",
+    "image": "https://qph.cf2.quoracdn.net/main-qimg-7df4848dff7bbb547c1eb61933227810-pjlq"
+  },
+  {
+    "id": 6,
+    "name": "Novel",
+    "title": "Stephen King - The Shining",
+    "price": 150,
+    "category": "Novel",
+    "image": "https://media.npr.org/assets/img/2024/03/22/theshining_custom-02338aeb336795207323610b4587dc41d1c594c4.jpg?s=1100&c=50&f=jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Novel",
+    "title": "Margaret Atwood - The Handmaid's Tale",
+    "price": 0,
+    "category": "Free",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbGhVoH9YJWBqb2o1MgUoBm1LBB7LefYGljxGYoiloSu80EHhZK97MWNuPYlt_ZsT_m0M&usqp=CAU"
+  },
+  {
+    "id": 8,
+    "name": "Autobiography",
+    "title": "The autobiography of Benjamin Franklin",
+    "price": 0,
+    "category": "Free",
+    "image": "https://images.booksense.com/images/896/021/9781515021896.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Novel",
+    "title": "The Home and the World by Rabindranath Tagore",
+    "price": 140,
+    "category": "Paid",
+    "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/l/j/c/the-home-and-the-world-original-imagrvgphufgt5zr.jpeg?q=20&crop=false"
+  },
+  {
+    "id": 10,
+    "name": "Novel",
+    "title": "Atomic Habits by James Clear",
+    "price": 0,
+    "category": "Free",
+    "image": "https://markmanson.net/wp-content/uploads/2023/06/atomic-habits.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Fiction",
+    "title": "The Kite Runner by Khaled Hosseini",
+    "price": 50,
+    "category": "Paid",
+    "image": "https://www.clankart.com/user-uploads/isbn/9781408850251.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Novel",
+    "title": "Worlds The King's Pawn by Mike Cahill",
+    "price": 0,
+    "category": "Free",
+    "image": "https://s.yimg.com/ny/api/res/1.2/nVT_eo7N0QKo5YFlDpy7CQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTk0Nw--/https://media.zenfs.com/en/newsfile_64/ef37afcdc7952da0a9709c214e239143"
+  }
+]
