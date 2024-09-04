@@ -4,7 +4,7 @@ This project is a MERN stack based application that showcases a list of books th
 
 ## Features
 
-- **User Authentication**: Signup and login functionality.
+- **User Authentication**: Sign-up and login functionality.
 - **Books Listing**: Displays books fetched from the database.
 - **Cards Carousel**: Navigating to other list of books upon button clicking.
 - **Categories**: Filters and shows books based on user authentication.
