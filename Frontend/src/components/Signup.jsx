@@ -1,42 +1,42 @@
-import React from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
-import Login from "./Login";
-import { useForm } from "react-hook-form";
-import axios from "axios";
-import toast from "react-hot-toast";
+import React from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
+import Login from './Login'
+import { useForm } from 'react-hook-form'
+import axios from 'axios'
+import toast from 'react-hot-toast'
 function Signup() {
-  const location = useLocation();
-  const navigate = useNavigate();
-  const from = location.state?.from?.pathname || "/";
+  const location = useLocation()
+  const navigate = useNavigate()
+  const from = location.state?.from?.pathname || '/'
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
+  } = useForm()
 
   const onSubmit = async (data) => {
     const userInfo = {
       fullname: data.fullname,
       email: data.email,
       password: data.password,
-    };
+    }
     await axios
-      .post("http://localhost:4001/user/signup", userInfo)
+      .post('https://bookstoreapp-q8qu.onrender.com/user/signup', userInfo)
       .then((res) => {
-        console.log(res.data);
+        console.log(res.data)
         if (res.data) {
-          toast.success("Signup Successfully");
-          navigate(from, { replace: true });
+          toast.success('Signup Successfully')
+          navigate(from, { replace: true })
         }
-        localStorage.setItem("Users", JSON.stringify(res.data.user));
+        localStorage.setItem('Users', JSON.stringify(res.data.user))
       })
       .catch((err) => {
         if (err.response) {
-          console.log(err);
-          toast.error("Error: " + err.response.data.message);
+          console.log(err)
+          toast.error('Error: ' + err.response.data.message)
         }
-      });
-  };
+      })
+  }
   return (
     <>
       <div className="flex h-screen items-center justify-center">
@@ -59,7 +59,7 @@ function Signup() {
                   type="text"
                   placeholder="Enter your fullname"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
-                  {...register("fullname", { required: true })}
+                  {...register('fullname', { required: true })}
                 />
                 <br />
                 {errors.fullname && (
@@ -76,7 +76,7 @@ function Signup() {
                   type="email"
                   placeholder="Enter your email"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
-                  {...register("email", { required: true })}
+                  {...register('email', { required: true })}
                 />
                 <br />
                 {errors.email && (
@@ -93,7 +93,7 @@ function Signup() {
                   type="text"
                   placeholder="Enter your password"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
-                  {...register("password", { required: true })}
+                  {...register('password', { required: true })}
                 />
                 <br />
                 {errors.password && (
@@ -108,15 +108,15 @@ function Signup() {
                   Signup
                 </button>
                 <p className="text-xl">
-                  Have account?{" "}
+                  Have account?{' '}
                   <button
                     className="underline text-blue-500 cursor-pointer"
                     onClick={() =>
-                      document.getElementById("my_modal_3").showModal()
+                      document.getElementById('my_modal_3').showModal()
                     }
                   >
                     Login
-                  </button>{" "}
+                  </button>{' '}
                   <Login />
                 </p>
               </div>
@@ -125,7 +125,7 @@ function Signup() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Signup;
+export default Signup
