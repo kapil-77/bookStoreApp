@@ -1,5 +1,5 @@
-import React from "react";
-import banner from "../../public/Banner.png";
+import React from 'react'
+import banner from '../../public/Banner.png'
 function Banner() {
   return (
     <>
@@ -7,7 +7,7 @@ function Banner() {
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
           <div className="space-y-8">
             <h1 className="text-2xl md:text-4xl font-bold">
-              Hello, welcomes here to learn something{" "}
+              Hello, welcome here to read something{' '}
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
@@ -39,7 +39,7 @@ function Banner() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Banner;
+export default Banner
