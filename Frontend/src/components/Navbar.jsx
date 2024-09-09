@@ -37,6 +37,7 @@ function Navbar() {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
+
   const navItems = (
     <>
       <li>

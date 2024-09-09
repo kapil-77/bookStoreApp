@@ -7,13 +7,14 @@ function Banner() {
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-36">
           <div className="space-y-8">
             <h1 className="text-2xl md:text-4xl font-bold">
-              Hello, welcome here to read something{' '}
+              Hello, welcome here, read something{' '}
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+              Discover your next great read with our Bookstore app! Whether
+              you're an avid reader or just starting your literary journey, our
+              app offers an extensive collection of books across genres, a
+              user-friendly interface, and personalized recommendations.
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
